@@ -1,0 +1,32 @@
+ul, li {
+  list-style-type: none;
+  width: 100px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.drag-item-draging {
+  position: fixed;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.drag-item {
+  background: #aaa;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.drag-container {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #000;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.drag-container-item {
+  display: inline-block;
+  border: 1px solid #999;
+  margin: 5px;
+}
